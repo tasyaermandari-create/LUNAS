@@ -1,9 +1,10 @@
-
+<?php
 namespace App\Http\Controllers\Api;
 
+use App\Http\Controllers\Controller;
 use App\Models\Layanan;
 
-class LayananController
+class LayananController extends Controller
 {
     public function index()
     {
